@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2020, 10:09:04 AM
+    Author     : bahubali
+*/
+
+.container-fluid{
+    padding: 3% 15% 3% 15%;
+    margin-top: 4.5rem;
+   
+}
+
+h1{
+    font-family: Bahnschrift,Light;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+#title{
+    
+    background-color: #bf88e9;
+    padding-bottom: 2rem; 
+    color: #fff;
+}
+.image-phone{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    width: 60%;
+    transform: rotate(25deg);
+     
+    
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+.download{
+    margin: 5% 3% 5% 0;
+}
+#features{
+    padding: 1rem;
+    text-align: center;
+    margin: 7% 15%;
+    
+}
+h3{
+    margin-top: 1rem;
+    font-family: "Verdana";
+    font-weight: bolder;
+}
+p{
+    color: #72747a;
+}
+
+@media (max-width: 1000px){
+    .container-fluid{
+        text-align: center;
+    }
+    .image-phone{
+        position: static;
+        margin-left: 0;
+        transform: rotate(0deg);
+    }
+    
+}
+.features-icon{
+    color: #d560ff;
+}
+.features-icon:hover{
+    color: #bf88e9
+}
+#my-contacts{
+    background-color: #bf88e9;
+    text-align: center;
+    color: #fff;    
+}
+.contact{
+    margin-top: 0;
+}
